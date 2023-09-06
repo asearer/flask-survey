@@ -14,6 +14,7 @@ app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 debug = DebugToolbarExtension(app)
 
 
+
 @app.route("/")
 def show_survey_start():
     """Select a survey."""
